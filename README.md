@@ -85,36 +85,33 @@ Built a **Spring Boot** application and implemented a complete **CI/CD pipeline*
 
 ---
 
-4. Serverless Java AWS Lambda → API Gateway → DynamoDB Project
-   Repository: Java AWS Lambda – API Gateway – DynamoDB Integration
-   https://github.com/sabarin123/lambda-dynamodb-post
-   📝 Project Description
+⚡ 4. Serverless Java AWS Lambda → API Gateway → DynamoDB Project
+🔗 Repository: [Java AWS Lambda – API Gateway – DynamoDB Integration](https://github.com/sabarin123/lambda-dynamodb-post)
 
-This project demonstrates a complete Serverless REST API built using Java AWS Lambda, API Gateway, and DynamoDB.
-It showcases how to build, deploy, and manage serverless applications with GitHub Actions CI/CD and AWS SAM.
+Description:
+A fully serverless application built using Java AWS Lambda, API Gateway, and DynamoDB.
+This project exposes two REST APIs (POST and GET) that allow users to submit and retrieve feedback data stored in DynamoDB.
+Deployed using AWS SAM and automated end-to-end through a GitHub Actions CI/CD pipeline.
 
-The API exposes POST and GET methods to store and retrieve data from DynamoDB using a clean Lambda-based architecture.
+Tech Stack:
+AWS Lambda • API Gateway • DynamoDB • Java 17 • Maven • AWS SAM • GitHub Actions • IAM
 
-🧱 Architecture Overview
-Client → API Gateway → AWS Lambda (Java) → DynamoDB
-API Gateway handles HTTP requests
+Key Highlights:
 
-Lambda Functions (Java 17) process input and generate responses
+Java Lambda functions for clean modular REST processing
 
-DynamoDB acts as serverless NoSQL database
+POST API to store data in DynamoDB
 
-GitHub Actions CI/CD deploys the application
+GET API to fetch data by ID
 
-AWS SAM used for packaging & deploying infrastructure
-| Component | Technology         |
-| --------- | ------------------ |
-| Runtime   | Java 17, Maven     |
-| Compute   | AWS Lambda         |
-| API       | Amazon API Gateway |
-| Database  | DynamoDB           |
-| IaC       | AWS SAM            |
-| CI/CD     | GitHub Actions     |
-| Logging   | CloudWatch Logs    |
+AWS SAM template for all resources (Lambda, API Gateway, DynamoDB table, IAM roles)
+
+GitHub Actions pipeline for build → package → deploy
+
+CloudWatch Logs enabled for Lambda monitoring
+
+Production-ready serverless architecture
+
 📘 What You’ll Learn
 
 🔹 How to write Java Lambda handlers
