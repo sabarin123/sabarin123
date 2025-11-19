@@ -19,7 +19,7 @@ I’m passionate about:
 
 ## 🧠 My AWS DevOps Projects
 
-### 🌐 [1. Static Website Hosting on Amazon S3](https://github.com/yourusername/static-website-s3-hosting)
+### 🌐 [1. Static Website Hosting on Amazon S3](https://github.com/sabarin123/static-website)
 **Description:**  
 Deployed a fully static website using **Amazon S3** and **CloudFront** for global content delivery. Configured IAM policies and Route 53 for secure public access.
 
@@ -34,7 +34,7 @@ Deployed a fully static website using **Amazon S3** and **CloudFront** for globa
 
 ---
 
-### 🐳 [2. Static Website Hosting using Docker and EC2](https://github.com/yourusername/static-website-docker-hosting)
+### 🐳 [2. Static Website Hosting using Docker and EC2](https://github.com/sabarin123/static-website-docker-hosting)
 **Description:**  
 Hosted a static website inside a **Docker container** running on an **EC2 instance**. Used Nginx as a web server and practiced Docker image build, container run, and EC2 configuration.
 
@@ -49,7 +49,7 @@ Hosted a static website inside a **Docker container** running on an **EC2 instan
 
 ---
 
-### ☁️ [3. Spring Boot CI/CD Pipeline with AWS ECR, EC2, CloudWatch & Terraform](https://github.com/yourusername/springboot-cicd-terraform)
+### ☁️ [3. Spring Boot CI/CD Pipeline with AWS ECR, EC2, CloudWatch & Terraform](https://github.com/sabarin123/springboot-ecs-terraform-ci-cd)
 **Description:**  
 Built a **Spring Boot** application and implemented a complete **CI/CD pipeline** using **GitHub Actions**, **AWS ECR**, **EC2**, and **Terraform**. Integrated **CloudWatch** for monitoring and alerting.
 
