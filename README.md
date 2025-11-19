@@ -85,18 +85,17 @@ Built a **Spring Boot** application and implemented a complete **CI/CD pipeline*
 
 ---
 
-⚡ 4. Serverless Java AWS Lambda → API Gateway → DynamoDB Project
-🔗 Repository: [Java AWS Lambda – API Gateway – DynamoDB Integration](https://github.com/sabarin123/lambda-dynamodb-post)
+⚡### ☁️ [4. Serverless Java AWS Lambda → API Gateway → DynamoDB Project](https://github.com/sabarin123/lambda-dynamodb-post)
 
-Description:
+**Description:**
 A fully serverless application built using Java AWS Lambda, API Gateway, and DynamoDB.
 This project exposes two REST APIs (POST and GET) that allow users to submit and retrieve feedback data stored in DynamoDB.
 Deployed using AWS SAM and automated end-to-end through a GitHub Actions CI/CD pipeline.
 
-Tech Stack:
+**Tech Stack:**
 AWS Lambda • API Gateway • DynamoDB • Java 17 • Maven • AWS SAM • GitHub Actions • IAM
 
-Key Highlights:
+**Key Highlights:**
 
 Java Lambda functions for clean modular REST processing
 
@@ -112,7 +111,7 @@ CloudWatch Logs enabled for Lambda monitoring
 
 Production-ready serverless architecture
 
-📘 What You’ll Learn
+📘** What You’ll Learn**
 
 🔹 How to write Java Lambda handlers
 🔹 How to deploy serverless apps using SAM
